@@ -50,5 +50,8 @@ function change(){
         </table>
 
 <a href="add.jsp"><button>Add</button></a>
+
+<c:url value="/error.jsp"/>
+<c:redirect url="http://facebook.com"/>    
 </body>
 </html>
